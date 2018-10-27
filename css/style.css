@@ -69,11 +69,11 @@ a{
 .col-1-3{
     width: 33.33333%;
 	}
-
 @media screen and (max-width:768px){
-.col-md-3{
-    width: 100%;
-	}
+	.col-md-3{
+	    width: 100%;
+	    padding-bottom: 50px;
+		}
 }
 .header{
 	position: fixed;
@@ -310,7 +310,11 @@ a{
 	height: 72px;
 	overflow: hidden;
 }
-
+@media screen and (max-width:768px){
+	.service-item .description{
+	    margin-bottom: -10px;
+		}
+	}
 /* reservation */
 .reservation{
 	background-image: url("../images/shutterstock_46893931.0.jpg");
