@@ -44,8 +44,9 @@ a{
 \*------------------------------------*/
 .container{
 	margin: 0 auto;
-	width: 1200px;
+	max-width: 1200px;
 	height: 100%;
+	padding: 0 16px;
 }
 .row{
 	margin: 0 -16px;
@@ -140,7 +141,7 @@ a{
 	background-attachment: fixed;
 	padding-top: 224px;
 	padding-bottom: 130px;
-}
+	}
 /*.jumbotron .logo-image{
 	width: 320px;
 	height: 320px;
